@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desktop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <!-- phần 1 -->
+      <div class="todo-header">
+        <div class="app-litle">Việc cần làm</div>
+        <div class="app-subtitle">Tập trung vào từng việc nhỏ mỗi ngày.</div>
+      </div>
+
+      <!-- phần 2 -->
+      <div class="todo-content">
+        <!-- //phần 2.1 -->
+        <div class="todo-form">
+          <div class="todo-input">
+            <input
+              id="todo-field"
+              class="input-value"
+              type="text"
+              placeholder="Nhập việc cần làm…"
+            />
+          </div>
+          <button class="todo-app">Thêm</button>
+        </div>
+        <!-- //phần 2.2 -->
+        <div class="todo-filters">
+          <button class="filter-all" id="filter-label">Tất cả</button>
+          <button class="filter-active" id="filter-label">Chưa xong</button>
+          <button class="filter-completed" id="filter-label">Đã xong</button>
+        </div>
+        <!-- //phần 2.3 -->
+        <div class="todo-list">
+          <div class="todo-item">
+            <input class="todo-checkbox" type="checkbox" checked />
+            <div class="todo-title1">Ôn HTML/CSS</div>
+            <button class="todo-delect">Xóa</button>
+          </div>
+          <div class="todo-item">
+            <input class="todo-checkbox" type="checkbox" checked />
+            <div class="todo-title">Luyện JavaScript</div>
+            <button class="todo-delect">Xóa</button>
+          </div>
+          <div class="todo-item">
+            <input class="todo-checkbox" type="checkbox" checked />
+            <div class="todo-title">Push code lên GitHub</div>
+            <button class="todo-delect">Xóa</button>
+          </div>
+          <div class="todo-item">
+            <input class="todo-checkbox" type="checkbox" checked />
+            <div class="todo-title">
+              Thực hành DOM và Events bằng cách xây dựng tính năng thêm, lọc và
+              xóa công việc
+            </div>
+            <button class="todo-delect">Xóa</button>
+          </div>
+        </div>
+        <!-- //phần 2.4 -->
+         
+        <div class="todo-count">
+          <hr class="line" />
+          <div class="remaining-count">Còn 3 việc chưa xong</div>
+        </hr>
+      </div>
+    </div>
+  </body>
+</html>
